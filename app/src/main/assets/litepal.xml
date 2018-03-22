@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="User"></dbname>
+    <version value="2"></version>
+    <!--每加一个表版本加1-->
+    <list>
+        <mapping class="com.hhit.jack.jem.db.User">
+        </mapping>
+        <mapping class="com.hhit.jack.jem.db.YuepuCollect"></mapping>
+    </list>
+</litepal>

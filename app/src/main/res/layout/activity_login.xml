@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#535353"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hhit.jack.jem.LoginActivity">
+
+    <ImageView
+        android:id="@+id/bing_pic_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <include layout="@layout/head"></include>
+
+    <include layout="@layout/content"></include>
+
+
+
+
+</FrameLayout>
